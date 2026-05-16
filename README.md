@@ -1,6 +1,6 @@
 # Restful Booker API Tests
 
-Suite de testes de API com [Cypress](https://www.cypress.io/) e [cypress-plugin-api](https://github.com/filiphric/cypress-plugin-api) contra o [Restful Booker](https://restful-booker.herokuapp.com).
+Suite de testes de API com [Cypress](https://www.cypress.io/) e [cypress-plugin-api](https://github.com/filiphric/cypress-plugin-api) para o [Restful Booker](https://restful-booker.herokuapp.com).
 
 ## Pré-requisitos
 
