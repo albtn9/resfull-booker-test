@@ -1,0 +1,25 @@
+{
+  "name": "restful-booker-tests",
+  "version": "1.0.0",
+  "description": "API test suite for Restful Booker using Cypress",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "report:merge": "npx mochawesome-merge cypress/reports/mochawesome*.json -o cypress/reports/report.json",
+    "report:generate": "npx marge cypress/reports/report.json -f report -o cypress/reports/final",
+    "test": "npm run cy:run && npm run report:merge && npm run report:generate"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^10.4.0",
+    "cypress": "^15.15.0",
+    "cypress-plugin-api": "^2.11.2",
+    "mochawesome": "^7.1.4",
+    "mochawesome-merge": "^5.1.1",
+    "mochawesome-report-generator": "^6.3.2"
+  }
+}
