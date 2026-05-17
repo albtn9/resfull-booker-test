@@ -1,5 +1,5 @@
 # Restful Booker API Tests
-![Testes](https://github.com/albtn9/resfull-booker-test/actions/workflows/cypress.yml/bagde.svg)
+
 Suite de testes de API com [Cypress](https://www.cypress.io/) e [cypress-plugin-api](https://github.com/filiphric/cypress-plugin-api) para o [Restful Booker](https://restful-booker.herokuapp.com).
 
 ## Pré-requisitos
