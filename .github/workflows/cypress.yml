@@ -34,3 +34,11 @@ jobs:
         with:
           name: mochawesome-report
           path: cypress/reports/final
+
+      - name: Upload evidence (if present)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: qa-evidence
+          path: docs/evidence/
+          if-no-files-found: ignore
